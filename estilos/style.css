@@ -30,3 +30,30 @@ section#telefone{
     
     background: url(/imagens/frame-iphone.png) no-repeat;
 }
+
+/*tela do celular fundo parte 2*/
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width:266px;
+    height: 471px;
+    
+
+}
+
+/*rede sociais icones parte 3*/
+section#rede-sociais img{
+  width: 50px;
+  margin: 10PX;
+  border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.815);
+box-sizing: border-box; /*pra bordar fazer parte da caixa */
+}
+
+section#rede-sociais img:hover{
+    border: 2px solid rgb(13, 9, 228) ;   /*para dar uma borda com efeito */
+    transform: translate(+5px, -2px);
+    box-shadow: 4px 4px 8px rgb(16, 28, 201);
+    transition: transform .3s ;
+}
